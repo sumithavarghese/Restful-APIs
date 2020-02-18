@@ -13,4 +13,11 @@ public class HelloWorldController {
 	public String helloworld(){
 		return "hello world";
 	}
+	
+	@GetMapping(path="/helloworld")
+	@ResponseBody
+	public String helloworld1(){
+		return "hello world";
+	}
 }
+
